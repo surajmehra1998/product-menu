@@ -1,0 +1,19 @@
+{
+  "name": "automateazy-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch assets/scss:assets/css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

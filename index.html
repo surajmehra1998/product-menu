@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg py-0">
+        <div class="container">
+          <div class="flex-center justify-content-between w-100">
+            <!-- logo -->
+            <div class="logo text-center">
+              <a href="#" class="text-white d-inline-block">
+                <svg>
+                  <use href="/assets/images/icon.svg#logo" />
+                </svg>
+              </a>
+            </div>
+            <!-- menu start -->
+            <div class="navbar-collapse justify-content-center" id="menuBar">
+              <div class="nav-container">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown position-static">
+                    <a
+                      class="nav-link text-uppercase justify-content-between text-center flex-center dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside"
+                      aria-expanded="false"
+                      id="productsDropdown"
+                    >
+                      <div class="product-title">
+                        <svg class="svg-icon">
+                          <use href="/assets/images/icon.svg#products" />
+                        </svg>
+                        <p
+                          class="flex-center flex-column justify-content-center"
+                        >
+                          Products
+                        </p>
+                      </div>
+                      <button class="btn d-md-none text-white">
+                        <svg class="svg-icon m-0 arrow-down">
+                          <use href="/assets/images/icon.svg#arrow-down" />
+                        </svg>
+                      </button>
+                    </a>
+                    <!-- submenu start -->
+                    <div
+                      class="dropdown-menu header-dropdown"
+                      aria-labelledby="productsDropdown"
+                    >
+                      <ul class="dropdown-container row">
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-1.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Aluminum Foil
+                            </h3>
+                            <p>Perfect for grilling, baking & more</p>
+                          </div>
+                        </li>
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-2.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Parchment Paper
+                            </h3>
+                            <p>
+                              Oven-safe, non-stick performance for baking &
+                              roasting
+                            </p>
+                          </div>
+                        </li>
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-3.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Disposable Bakeware
+                            </h3>
+                            <p>Great for any meal with no cleanup</p>
+                          </div>
+                        </li>
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-4.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Cooking Bags & Liners
+                            </h3>
+                            <p>
+                              Fast & easy cleanup with no soaking or scrubbing
+                            </p>
+                          </div>
+                        </li>
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-5.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Wax & Freezer Paper
+                            </h3>
+                            <p>Protect Surface & keeps food fresh larger</p>
+                          </div>
+                        </li>
+                        <li class="col-sm-4 text-center">
+                          <div
+                            class="product-item h-100 flex-center flex-column justify-content-end"
+                          >
+                            <figure>
+                              <img
+                                src="./assets/images/img-6.png"
+                                alt="Product"
+                              />
+                            </figure>
+                            <h3 class="text-blue text-uppercase fw-bold">
+                              Other Products
+                            </h3>
+                            <p>Butcher Paper, Plastic Wrap & Baking Cups</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-uppercase text-center flex-center"
+                    >
+                      <svg class="svg-icon">
+                        <use href="/assets/images/icon.svg#recipes" />
+                      </svg>
+                      <p class="flex-center flex-column justify-content-center">
+                        Recipes
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-center text-uppercase flex-center"
+                    >
+                      <svg class="svg-icon">
+                        <use href="/assets/images/icon.svg#tips" />
+                      </svg>
+                      <p class="flex-center flex-column justify-content-center">
+                        Tips & &nbsp;<span>How -Tos</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-center text-uppercase flex-center"
+                    >
+                      <svg class="svg-icon">
+                        <use href="/assets/images/icon.svg#holiday" />
+                      </svg>
+                      <p class="flex-center flex-column justify-content-center">
+                        Holidays & &nbsp; <span>Entertaining</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-center text-uppercase flex-center"
+                    >
+                      <svg class="svg-icon">
+                        <use href="/assets/images/icon.svg#story" />
+                      </svg>
+                      <p class="flex-center flex-column justify-content-center">
+                        Our <span>story</span>
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <ul class="social-links flex-center mb-2 d-md-none">
+                      <li>
+                        <a href="#" class="text-blue">
+                          <svg class="svg-icon">
+                            <use href="/assets/images/icon.svg#fb" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-blue">
+                          <svg class="svg-icon">
+                            <use href="/assets/images/icon.svg#twitter" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-blue">
+                          <svg class="svg-icon">
+                            <use href="/assets/images/icon.svg#insta" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-blue">
+                          <svg class="svg-icon">
+                            <use href="/assets/images/icon.svg#youtube" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-blue">
+                          <svg class="svg-icon">
+                            <use href="/assets/images/icon.svg#printrest" />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <!-- social links -->
+              <ul class="social-links flex-center mb-2 hidden-xs">
+                <li>
+                  <a href="#" class="text-blue">
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#fb" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-blue">
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#twitter" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-blue">
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#insta" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-blue">
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#youtube" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-blue">
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#printrest" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <!-- search -->
+                <div class="search">
+                  <button
+                    class="btn flex-center justify-content-center rounded-circle text-white"
+                  >
+                    <svg class="svg-icon">
+                      <use href="/assets/images/icon.svg#search" />
+                    </svg>
+                  </button>
+                </div>
+                <!-- toggle btn -->
+                <button
+                  class="navbar-toggler ms-3"
+                  type="button"
+                  onclick="sidebarToggle()"
+                >
+                  <svg class="svg-icon">
+                    <use id="icon-use" href="/assets/images/icon.svg#menu" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- script -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>

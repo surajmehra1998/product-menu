@@ -1,0 +1,58 @@
+@import "./mixin";
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: $font;
+  color: $text-color;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+a,
+button {
+  transition: $transition;
+  text-decoration: none;
+  outline: 0 !important;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.text-blue {
+  color: $blue;
+}
+.svg-icon {
+  height: 2rem;
+  width: 2rem;
+  fill: currentColor;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+.place-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
