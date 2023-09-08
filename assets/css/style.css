@@ -165,10 +165,11 @@ header .logo svg {
 }
 
 .social-links {
-  background: #fff;
-  padding: 1rem;
+  background-image: url(../images/curve.svg);
+  background-position: bottom;
+  background-size: cover;
+  padding: 1rem 1rem 1.4rem;
   column-gap: 0.8rem;
-  border-radius: 0 0 40% 40%;
   margin-top: -0.5rem;
 }
 .social-links svg {
@@ -226,9 +227,7 @@ header .logo svg {
   position: absolute;
   z-index: 10;
   top: -1.4rem;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 30%;
+  left: calc(50% - 25rem);
   border-left: 1.5rem solid transparent;
   border-right: 1.5rem solid transparent;
   border-bottom: 1.5rem solid #fff;
@@ -267,14 +266,8 @@ header .logo svg {
 }
 
 @media only screen and (min-width: 768px) {
-  .dropdown .dropdown-menu.show {
-    display: none;
-  }
   .dropdown:hover .dropdown-menu {
     display: block;
-  }
-  .navbar-nav {
-    flex-direction: row;
   }
   .navbar-toggler {
     display: none;
